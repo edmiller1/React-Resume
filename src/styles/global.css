@@ -1,0 +1,26 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+
+.hero-text {
+  font-size: 95px;
+  line-height: normal;
+  font-weight: 900;
+}
+
+.social-link {
+  color: #595959;
+  transition: all 0.5s ease-in;
+}
+
+.social-link:hover {
+  color: #fff;
+}
+
+.about-text p {
+  color: rgb(170, 170, 170, 1);
+}
+
+.profile-image {
+  height: 700px;
+}
