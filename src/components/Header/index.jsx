@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 export const Header = () => {
   return (
-    <div className="py-3">
+    <div className="py-3 px-20">
       <img src={logo} alt="logo" className="w-16" />
     </div>
   );

@@ -7,5 +7,6 @@ export const about = {
   currentProjects:
     "I'm currently available to work on websites for businesses and individuals. I'm also looking for employment opportunities in engineering roles in the Christchurch area.",
   hobbies:
-    "I also like to play video games with mates in my spare time, invest and learn about the stock market/crypto and look after my two fluffy birmans.",
+    "I also like to play video games with mates in my spare time, invest and learn about the stock market/crypto and look after my two fluffy Birmans.",
+  image: "profile.jpeg",
 };

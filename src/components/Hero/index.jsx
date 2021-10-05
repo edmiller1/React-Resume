@@ -1,10 +1,9 @@
 import React from "react";
 import { info } from "../../data/info";
-import { socials } from "../../data/social";
 
 export const Hero = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 px-20">
       <h1 className="hero-text tracking-tighter">{info.description}</h1>
       <div className="pt-3">
         <a href="https://github.com/edmiller1">

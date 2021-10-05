@@ -2,6 +2,10 @@
   font-family: "Karla", sans-serif;
 }
 
+.text {
+  color: rgb(170, 170, 170, 1);
+}
+
 .hero-text {
   font-size: 95px;
   line-height: normal;
@@ -23,4 +27,49 @@
 
 .profile-image {
   height: 700px;
+}
+
+.secondary-text-color {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.secondary-text-color:hover {
+  color: #9158f3;
+}
+
+.secondary-bg-color {
+  background-color: #7423ff;
+}
+
+.work-image {
+  height: 400px;
+}
+
+.contact-bg {
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80);
+  height: 200px;
+}
+
+.button {
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #7423ff;
+}
+
+.year {
+  color: rgb(170, 170, 170, 1);
+}
+
+.links {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.links:hover {
+  color: #7423ff;
 }

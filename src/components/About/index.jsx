@@ -1,11 +1,10 @@
 import React from "react";
 import { about } from "../../data/about";
 import { stack } from "../../data/stack";
-import profile from "../../assets/profile.jpeg";
 
 export const About = () => {
   return (
-    <div className="flex mt-20">
+    <div className="flex mt-20 px-20">
       <div className="w-1/2 about-text">
         <p className="my-10 text-xl">{about.currentWork}</p>
         <p className="my-10 text-xl">{about.skills}</p>
@@ -20,7 +19,7 @@ export const About = () => {
       </div>
       <div className="w-1/2 flex justify-end">
         <img
-          src={profile}
+          src={`assets/${about.image}`}
           alt="cats in bag"
           className="profile-image rounded-3xl"
         />
