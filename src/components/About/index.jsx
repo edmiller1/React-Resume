@@ -1,6 +1,9 @@
 import React from "react";
 import { about } from "../../data/about";
 import { stack } from "../../data/stack";
+import { emojis } from "../../data/emojis";
+
+const emoji = emojis[Math.floor(Math.random() * emojis.length)];
 
 export const About = () => {
   return (
@@ -15,7 +18,9 @@ export const About = () => {
           ))}
         </ul>
         <p className="my-10 text-xl">{about.currentProjects}</p>
-        <p className="my-10 text-xl">{about.hobbies}</p>
+        <p className="my-10 text-xl">
+          {about.hobbies}&nbsp;{emoji}
+        </p>
       </div>
       <div className="w-1/2 flex justify-end">
         <img
