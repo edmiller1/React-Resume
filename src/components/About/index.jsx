@@ -18,7 +18,9 @@ export const About = () => {
         </p>
         <ul className="ml-3 xl:mb-10">
           {stack.map((s) => (
-            <li className="flex">- {s}</li>
+            <li key={s} className="flex">
+              - {s}
+            </li>
           ))}
         </ul>
         <p className="my-3 md:text-lg xl:text-xl  xl:my-10 ">

@@ -9,7 +9,7 @@ export const Work = () => {
       </h1>
       <div className="md:mt-32">
         {work.map((w) => (
-          <div className="my-16 md:flex">
+          <div key={w.name} className="my-16 md:flex">
             <div className="flex flex-col md:w-1/3 md:mr-20 xl:justify-center">
               <div className="my-10">
                 <h1 className="text-4xl font-extrabold">{w.name}</h1>

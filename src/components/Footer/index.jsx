@@ -11,6 +11,7 @@ export const Footer = () => {
         <div className="md:w-1/2 pl-4">
           {images.map((i) => (
             <img
+              key={i}
               src={`assets/${i}`}
               alt="img"
               className="rounded-3xl w-20 h-24 ml-10 md:mx-3 md:h-24 md:w-20 xl:h-28 xl:w-24"
@@ -21,7 +22,7 @@ export const Footer = () => {
         <div className="w-1/2 flex justify-center">
           <ul>
             {socials.map((s) => (
-              <li className="links text-lg md:text-lg xl:text-xl">
+              <li key={s.title} className="links text-lg md:text-lg xl:text-xl">
                 <a href={s.link}>{s.title}</a>
               </li>
             ))}
