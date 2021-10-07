@@ -4,11 +4,11 @@ import "./styles/global.css";
 function App() {
   return (
     <div className="App bg-black text-white">
-      <Header className="fixed" />
+      <Header />
       <Hero />
       <About />
       <Work />
-      <Contact className="w-full" />
+      <Contact />
       <Footer />
     </div>
   );
