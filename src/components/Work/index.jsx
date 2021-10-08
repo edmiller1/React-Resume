@@ -20,8 +20,16 @@ export const Work = () => {
               <p className="description-text my-3 md:my-5 md:text-lg xl:text-xl">
                 {w.additional}
               </p>
-              <div className="my-5 xl:my-10">
-                <a href={w.link}>
+              <div className="my-5 xl:my-10 flex items-center">
+                <a
+                  href={w.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mr-5"
+                >
+                  <i class="social-link fab fa-github text-3xl xl:cursor-pointer"></i>
+                </a>
+                <a href={w.link} target="_blank" rel="noreferrer">
                   <span className="secondary-text-color font-extrabold md:text-xl xl:text-2xl">
                     {w.name}
                     &nbsp;

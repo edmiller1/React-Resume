@@ -14,11 +14,22 @@
 
 .social-link {
   color: #595959;
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .social-link:hover {
   color: #fff;
+}
+
+.resume-button {
+  border: 1px solid #7423ff;
+  transition: all 0.3s ease-in-out;
+  will-change: transform;
+}
+
+.resume-button:hover {
+  border: 1px solid transparent;
+  background-color: #7423ff;
 }
 
 .about-text p {
