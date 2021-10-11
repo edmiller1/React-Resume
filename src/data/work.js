@@ -23,9 +23,9 @@ export const work = [
   {
     name: "Felinder",
     description:
-      "Felinder is an app that allows users to decide whether they like, dislike or super-like cats based on their look, age and how far away they are from your location.",
+      "Felinder is an app that allows users to decide whether they like, dislike or super-like cats based on their look, age and how far away they are from their location.",
     additional:
-      "Felinder uses a similar UI to that of Tinder, allowing users imitate the swipe functionality ny clicking on the corresponding buttons that suit their opinion about the current cat shown on the screen. Users can then see their history of all the decisions they've made and even delete cats from their history.",
+      "Felinder uses a similar UI to that of Tinder, allowing users to imitate the swipe functionality by clicking on the corresponding buttons that suit their opinion about the current cat shown on the screen. Users can then see their history of all the decisions they've made and even delete cats from their history.",
     tech: ["VueJs", "Tailwind CSS", "VueX", "Axios"],
     image: "felinder.jpg",
     github: "https://github.com/edmiller1/Felinder",
