@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# **React Resume**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Hi! This is my resume created with React. You can make one yourself!
 
-## Available Scripts
+> If any issues come up during your use of the project, you can leave them [here](https://github.com/edmiller1/React-Resume/issues)
 
-In the project directory, you can run:
+# 👀 Preview
+![first image](https://github.com/edmiller1/React-Resume/blob/master/docs/assets/imac-1.png)
+![second image](https://github.com/edmiller1/React-Resume/blob/master/docs/assets/imac-2.png)
 
-### `yarn start`
+# 🏗 Make One Yourself
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 1. Duplicate this repository
+  You can clone this repo to your account.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 2. Set it up on your local machine
 
-### `yarn test`
+  ```
+git clone https://github.com/your-nickname/some-repository.git
+  # this clone link is from the repo that you generated at the previous step!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd some-repository
+  # move to your newly cloned folder
 
-### `yarn build`
+yarn
+  # to install dependencies
+  # of course, you can use npm
+  # - but just be sure to delete yarn.lock
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn dev
+  # run the dev server in your local environment
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 3. Setup Deployment
+   My go to platform for hosting is [Netlify](https://www.netlify.com/). But you can use whatever you like. Just make sure to build first.
+   
+   
+## 4. Configurations
+  Now go through the files and customize to your liking! 😁
