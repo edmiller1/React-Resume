@@ -9,6 +9,6 @@ export const socials = [
   },
   {
     title: "Cats",
-    link: "https://www.instagram.com/benjaminandbeauthebirmans/",
+    link: "https://www.instagram.com/thetalesofthetwelvepaws/",
   },
 ];

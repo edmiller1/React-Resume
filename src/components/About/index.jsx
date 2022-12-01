@@ -33,7 +33,7 @@ export const About = () => {
       <div className="mt-16 flex justify-center md:w-7/12 md:mr-12 xl:w-1/2 md:justify-end">
         <img
           src={`assets/${about.image}`}
-          alt="cats in bag"
+          alt="profile"
           className="profile-image rounded-3xl"
         />
       </div>
