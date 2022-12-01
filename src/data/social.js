@@ -8,10 +8,6 @@ export const socials = [
     link: "https://github.com/edmiller1",
   },
   {
-    title: "Instagram",
-    link: "https://www.instagram.com/_edwardmiller_/",
-  },
-  {
     title: "Cats",
     link: "https://www.instagram.com/benjaminandbeauthebirmans/",
   },

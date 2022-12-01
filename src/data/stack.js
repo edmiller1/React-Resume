@@ -1,9 +1,12 @@
 export const stack = [
   "React",
+  "NextJS",
   "Typescript",
-  "Tailwind CSS",
+  "TailwindCSS",
+  "tRPC",
   "Node",
   "Express",
   "GraphQL",
+  "Prisma",
   "MongoDB",
 ];
